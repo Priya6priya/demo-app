@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'mvn clean compile'
+                bat '"C:/Users/PRIYAJ/Downloads/apache-maven-3.9.16-bin/apache-maven-3.9.16/bin/mvn.cmd" clean compile'
+bat '"C:/Users/PRIYAJ/Downloads/apache-maven-3.9.16-bin/apache-maven-3.9.16/bin/mvn.cmd" test'
             }
         }
 
