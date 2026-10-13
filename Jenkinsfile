@@ -11,7 +11,7 @@ bat '"C:/Users/PRIYAJ/Downloads/apache-maven-3.9.16-bin/apache-maven-3.9.16/bin/
 
         stage('Test') {
             steps {
-                bat 'mvn test'
+                bat '"C:/Users/PRIYAJ/Downloads/apache-maven-3.9.16-bin/apache-maven-3.9.16/bin/mvn.cmd" test'
             }
         }
     }
